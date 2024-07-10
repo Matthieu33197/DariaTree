@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-8 bg-gray-50 dark:bg-gray-900">
       <div className="w-full max-w-5xl flex flex-col items-center justify-center text-center space-y-4 md:space-y-6">
         <Image
-          className="rounded"
+          className="aspect-square rounded-full"
           src="/profil.PNG" // Remplacez par votre photo de profil
           alt="Profile Picture"
           width={100}
