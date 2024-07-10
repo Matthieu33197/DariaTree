@@ -5,14 +5,16 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-8 bg-gray-50 dark:bg-gray-900">
       <div className="w-full max-w-5xl flex flex-col items-center justify-center text-center space-y-4 md:space-y-6">
-        <Image
-          className="aspect-square rounded-full"
-          src="/profil.PNG" // Remplacez par votre photo de profil
-          alt="Profile Picture"
-          width={100}
-          height={100}
-          priority
-        />
+        <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
+          <Image
+            className="object-cover w-full h-full"
+            src="/profil.PNG" // Remplacez par votre photo de profil
+            alt="Profile Picture"
+            width={128} // Taille de l'image en pixels pour correspondre aux dimensions du conteneur
+            height={128}
+            priority
+          />
+        </div>
         <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">_deathless.3</h1>
         <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">Welcome to my link tree. Follow me on my socials and check out my latest content!</p>
       </div>
