@@ -3,7 +3,7 @@ import TreeLink from '../app/components/tree';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-8 bg-gray-50 dark:bg-gray-900">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-8 bg-gray-900">
       <div className="w-full max-w-5xl flex flex-col items-center justify-center text-center space-y-4 md:space-y-6">
         <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
           <Image
@@ -15,8 +15,8 @@ export default function Home() {
             priority
           />
         </div>
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">_deathless.3</h1>
-        <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">Welcome to my link tree. Follow me on my socials and check out my latest content!</p>
+        <h1 className="text-2xl md:text-3xl font-bold text-white">_deathless.3</h1>
+        <p className="text-sm md:text-base text-gray-300">Welcome to my link tree. Follow me on my socials and check out my latest content!</p>
       </div>
 
       <div className="w-full max-w-5xl flex flex-col items-center justify-center space-y-3 md:space-y-4 mt-8 md:mt-10">
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <footer className="w-full max-w-5xl flex items-center justify-center py-4">
-        <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">© 2024 _deathless.3. All rights reserved.</p>
+        <p className="text-sm md:text-base text-gray-300">© 2024 _deathless.3. All rights reserved.</p>
       </footer>
     </main>
   );
