@@ -74,8 +74,8 @@ export default function Home() {
         <div className="relative w-full max-w-5xl flex flex-col items-center justify-center space-y-3 md:space-y-4 mt-8 md:mt-10 z-20 top-6">
           <TreeLink href="https://www.instagram.com/_deathless.3?igsh=MWJ6eXRtZng0a2NwbA%3D%3D&utm_source=qr" title="Instagram" description="Lifestyle + Korean studying" />
           <TreeLink href="https://youtube.com/@deathless.3?si=rzb7tuHZvngasPYZ" title="YouTube" description="Vlogs - About my life - Makeup" />
-          <TreeLink href="https://bead-beginner-30b.notion.site/1-a73a720c17494ad5af8e3c55be5c003d?pvs=4" title="Lesson #1" description="1st free lesson Ukr" />
-          <TreeLink href="https://t.me/koreanfrogs" title="Telegram" description="Join my telegram channel to get all updates on my lesson" />
+          <TreeLink href="https://bead-beginner-30b.notion.site/1-a73a720c17494ad5af8e3c55be5c003d?pvs=4" title="My first FREE lesson (ukr)" description="1st free lesson Ukr" />
+          <TreeLink href="https://t.me/koreanfrogs" title="Telegram" description="Join my telegram channel to get all updates on my lessons" />
           <TreeLink href="https://www.tiktok.com/@deathless_.3?_t=8ntshtbkNex&_r=1" title="TikTok" description="Check out my TikTok videos" />
         </div>
 
