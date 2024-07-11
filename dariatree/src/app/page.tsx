@@ -7,18 +7,62 @@ export default function Home() {
       <main className="relative flex min-h-screen flex-col items-center justify-between p-4 md:p-8">
         <div className="absolute -top-36 left-30 w-72 h-72 bg-[#362A66] rounded-full shadow-lg z-0"></div>
         <div className="absolute -top-10 -left-10 w-32 h-32 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-10"></div>
-        <div className="absolute top-60 -right-4 w-32 h-32 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-10"></div>
+        <div className="absolute top-52 -right-4 w-32 h-32 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-10"></div>
         <div className="absolute -bottom-10 -right-4 w-40 h-40 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-0"></div>
         <div className="absolute bottom-14 -right-6 w-32 h-32 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-10"></div>
         <div className="absolute bottom-52 -left-10 w-32 h-32 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-0"></div>
         <div className="absolute bottom-32 -left-14 w-40 h-40 bg-[#362A66] rounded-full shadow-lg drop-shadow-2xl z-10"></div>
+        <div className="absolute bottom-20 left-40 w-full h-full z-10 flex justify-center -rotate-45">
+          <div className="relative w-28 h-28 md:w-48 md:h-48">
+            <Image
+              className="object-cover w-full h-full absolute"
+              src="/kuromi1.png"
+              alt="Kuromi Image"
+              layout="fill"
+              priority
+            />
+          </div>
+        </div>
+        <div className="absolute -bottom-9 -right-10 w-28 h-28 md:w-48 md:h-48 z-10 flex justify-center -rotate-12">
+          <div className="relative w-full h-full">
+            <Image
+              className="object-cover w-full h-full absolute"
+              src="/kuromi2.png"
+              alt="Kuromi Image"
+              layout="fill"
+              priority
+            />
+          </div>
+        </div>
+        <div className="absolute top-64 right-0 transform -translate-y-1/2 w-28 h-28 md:w-48 md:h-48 z-10 flex justify-center -rotate-12">
+          <div className="relative w-full h-full">
+            <Image
+              className="object-cover w-full h-full absolute"
+              src="/kuromi3.png"
+              alt="Kuromi Image"
+              layout="fill"
+              priority
+            />
+          </div>
+        </div>
+        <div className="absolute top-60 -left-7 transform -translate-y-1/2 w-28 h-28 md:w-48 md:h-48 z-10 flex justify-center rotate-45">
+          <div className="relative w-full h-full">
+            <Image
+              className="object-cover w-full h-full absolute"
+              src="/kuromi4.png"
+              alt="Kuromi Image"
+              layout="fill"
+              priority
+            />
+          </div>
+        </div>
         <div className="relative w-full max-w-5xl flex flex-col items-center justify-center text-center space-y-4 md:space-y-6 z-20 top-6">
-          <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
+          <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden relative z-30">
             <Image
               className="object-cover w-full h-full"
-              src="/profil.PNG" // Remplacez par votre photo de profil
+              src="/profil.PNG"
               alt="Profile Picture"
-              width={128} // Taille de l'image en pixels pour correspondre aux dimensions du conteneur
+              width={128}
               height={128}
               priority
             />
